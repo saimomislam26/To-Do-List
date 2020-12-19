@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+  }
+.body{
+    background-color: black !important;
+}
+
+.parent-div{
+    background-color: black;
+}
+
+#addtask{
+    background-color: yellow;
+}
+#filter{
+    background-color: yellow;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #909;
+}
