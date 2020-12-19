@@ -42,14 +42,21 @@ function deleted(e){
 
     if(e.target.hasAttribute('href')){
        let ele = e.target.parentElement;
-       ele.remove();
+    //    window.alert("Are You Sure Want to Delete?")
+    if (confirm("Are You Sure Want to Delete?")) {
+        ele.remove();
+        removeFromLS(ele);
 
-       removeFromLS(ele);
+      } 
+    //    ele.remove();
+
+    //    removeFromLS(ele);
     }
     
 }
 
 function removed(e){
+   
     tasklist.innerHTML = "" ;
 
     localStorage.clear();
