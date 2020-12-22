@@ -2,13 +2,13 @@
     display: flex;
     justify-content: center;
   }
-.body{
+body{
     background-color: black !important;
 }
 
-.parent-div{
+/* .parent-div{
     background-color: black;
-}
+} */
 
 #addtask{
     background-color: yellow;
