@@ -93,7 +93,7 @@ function matched(i){
         let text = filter.value.toLowerCase();
         let item = i.firstChild.textContent;
         if(item.toLowerCase().indexOf(text)!=-1){
-            i.style.display = 'block';
+            i.style.display = '';
         }
         else{
             i.style.display = 'none';
